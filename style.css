@@ -1,0 +1,31 @@
+/* for SQL  */
+body{
+    font: 14px ;
+    font-family: 'Poppins', sans-serif; 
+    font-size:bold;
+}
+.btn{
+    background: rgb(0, 71, 171);
+    /* border: 4px -4px -4px 4px; */
+    border-color:rgb(179, 166, 190) ;
+    color: white;
+    width:27%;
+    padding:5px 5px;
+    font-size:1.2rem;
+    /* border:none; */
+    border-radius:20px;
+    cursor:pointer;
+}
+.btn:hover{
+    transform: translateY(-1.2px);
+}
+.login .signup{
+    color:rgb(0, 0, 128);
+}
+.login:hover{
+    color: rgb(207, 14, 14);
+}
+.signup:hover{
+    color: rgb(207, 14, 14);
+}
+.wrapper{ width: 360px; padding: 20px; }
